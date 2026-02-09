@@ -5,12 +5,12 @@ void main(void){
 while(1)
 {
 byte=~byte;
-delay(306);
+delay(200);
 }
 }
 void delay(unsigned int n)
 {
-int j;
-for(j=0;j<=n;j++);
-
+int i,j;
+	for(j=0;j<=n;j++)
+for(i=0;i<=1000;i++);
 }
